@@ -3,7 +3,7 @@ package lab3;
 import java.util.Scanner;
 import java.util.StringTokenizer;
  
-class lab3_q1 {
+class Problem1 {
     public static void main(String args[]) {
         int n;
         int sum = 0;
