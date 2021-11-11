@@ -33,12 +33,12 @@ map.put("Lenovo", 19990);
 System.out.println("Before sorting: ");  
 printMap(map);  
 }  
-//sort elements by values  
+ 
 void sortByValue(boolean order)   
 {  
-//convert HashMap into List   
-List<Entry<String, Integer>> list = new LinkedList<Entry<String, Integer>>(map.entrySet());  
-//sorting the list elements  
+   
+List<Entry<String, Integer>> list = new LinkedList<Entry<String, Integer>>(map.entrySet());  //Converting has map to list
+ 
 Collections.sort(list, new Comparator<Entry<String, Integer>>()   
 {  
 public int compare(Entry<String, Integer> o1, Entry<String, Integer> o2)   
